@@ -7,7 +7,8 @@ class Solution:
             if stack and abs(ord(stack[-1]) - ord(c)) == 32: #
                 poped = stack.pop()
 
-            stack.append(c)
+            if not poped:
+                stack.append(c)
 
 
         return "".join(stack)

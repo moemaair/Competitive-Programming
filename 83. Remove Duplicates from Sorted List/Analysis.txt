@@ -1,0 +1,2 @@
+Time complexity : 0(N) - bcoz of traversing
+Space complexity: 0(1) - no extra memory used like creating a new node to store the dublicate nodes

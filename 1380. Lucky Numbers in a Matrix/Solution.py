@@ -1,3 +1,4 @@
+from ast import List
 from collections import Counter
 class Solution:
     def luckyNumbers (self, matrix: List[List[int]]) -> List[int]:
